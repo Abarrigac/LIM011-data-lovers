@@ -1,0 +1,487 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/22917.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hide{
+display: none;
+}
+#title{
+padding: 30px;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+color:#FDFCDC;
+font: 40px 'Rock Salt', cursive;
+line-height: 20px;
+margin-top: 1px;
+}
+#opcion1{
+font-size: 38px;
+font-family: 'acme';
+font-weight: bold;
+text-align: center;
+color:#EBBD68;
+font-weight: bold;
+letter-spacing: 1.5px;
+margin-left: 390px;
+display: inline;
+}
+#opcion1:hover{
+    background: #E8990D;
+    color: white;
+        }  
+#patronus{
+    font-size: 38px;
+    font-family: 'acme';
+    font-weight: bold;
+    text-align: center;
+    color:#EBBD68;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-left: 40px;
+    display: inline;
+    }
+    #patronus:hover{
+        background: #E8990D;
+        color: white;
+            }  
+#varitas{
+    font-size: 38px;
+    font-family: 'acme';
+    font-weight: bold;
+    text-align: center;
+    color:#EBBD68;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-left: 50px;
+    display: inline;
+    }
+    #varitas:hover{
+        background: #E8990D;
+    color: white;
+        }  
+.listPersonaje{
+    padding: 2px;
+    display:inline-block;
+    margin: 13px; 
+    block-size: 60px; 
+    line-height: 70px;
+    text-transform: capitalize;
+    background: white;
+    height: 250px;
+    width: 200px;
+    line-height: 30px; 
+}
+.imagen{
+    float: center;
+    height: 250px;
+    width: 180px;
+    display: block;
+   } 
+#general{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-color: #ffffff;
+    border-style: solid;
+    background: #FFB769;
+    opacity: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 20px;
+}
+#containerImagen{
+    size: 250px;    
+}
+#containerGetPersonaje{
+    text-align:left;
+}
+#personajes{
+    width: 80%;
+    position: absolute;
+    right: 20px;
+    margin-top: 30px;
+    display: inline-table;
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+    font: 20px 'acme';
+    line-height: 10px;   
+         }
+     .listfiltrar{
+    width: 270px;
+    margin-top: 10px;
+    height: 500px;
+    background: #B38639; opacity: 95%;
+    position: relative;
+    top: 20px;
+    bottom: 2px;
+    left: 2px;
+    right: 5px;
+         }
+     #filtro{
+        color: white;
+         font-size: 40px;
+         opacity: 100%;
+         font-family: 'acme';
+         font-weight: bold;
+         margin-top: 0.5px;
+         line-height: 80px;
+         margin-right: 20px;
+         float: left;
+         position: absolute;
+        } 
+        #filtroEspecie{
+        color: white;
+        opacity: 100%;
+         font-size: 40px;
+         font-family: 'acme';
+         font-weight: bold;
+         margin-top: 0.5px;
+         line-height: 80px;
+         margin-right: 20px;
+         float: left;
+         position: absolute;
+        } 
+    #filtroCasas{
+        color: white;
+        opacity: 100%;
+         font-size: 40px;
+         font-family: 'acme';
+         font-weight: bold;
+         margin-top: 0.5px;
+         line-height: 80px;
+         margin-right: 20px;
+         float: left;
+         position: absolute;
+        } 
+    #filtroRoles{
+        color: white;
+        opacity: 100%;
+         font-size: 40px;
+         font-family: 'acme';
+         font-weight: bold;
+         margin-top: 0.5px;
+         line-height: 80px;
+         margin-right: 20px;
+         float: left;
+         position: absolute;
+        } 
+        #btn-Especie{
+            background-color: white;
+            border: 1px solid #C27A34;
+            color: #EBBD68;
+            font-weight: bolder;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            width: 150px;
+            display: block;
+            position: absolute;
+            top: 80px;
+        }
+   #btn-Especie:hover, #btn-Casas:hover, #btn-Roles:hover, #btn-Humano:hover, #btn-Half-giant:hover, #btn-Werewolf:hover, #btn-Cat:hover, #btn-Gryffindor:hover, #btn-Slytherin:hover, #btn-Ravenclaw:hover,  #btn-Hufflepuff:hover, #btn-Estudiantes:hover, #btn-Staff:hover{
+            background: #C27A34;
+            color: white;
+                }  
+        #especies{
+            color: white;
+         font-size: 50px;
+         font-family: 'acme';
+                }  
+        #btn-Casas{
+            background-color: white;
+            border: 1px solid #C27A34;
+            color: #EBBD68;
+            font-weight: bolder;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            width: 150px;
+            display: block;
+            position: absolute;
+            top: 135px;
+        }
+        #btn-Roles{
+            background-color: white;
+            border: 1px solid #C27A34;
+            color: #EBBD68;
+            font-weight: bolder;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            width: 150px;
+            display: block;
+            position: absolute;
+            top: 190px;
+        }
+                     #btn-Humano{
+                    background-color: white;
+                    border: 1px solid #C27A34;
+                    color: #EBBD68;
+                    font-weight: bolder;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 16px;
+                    cursor: pointer;
+                    width: 150px;
+                    display: block;
+                    position: absolute;
+                    top: 70px;
+                }
+                          #btn-Half-giant{
+                   background-color: white;
+                   border: 1px solid #C27A34;
+                   color: #EBBD68;
+                   font-weight: bolder;
+                   padding: 15px 32px;
+                   text-align: center;
+                   text-decoration: none;
+                   font-size: 16px;
+                   cursor: pointer;
+                   width: 150px;
+                   display: block;
+                   position: absolute;
+                   top: 122px;
+                        }
+                    #btn-Werewolf{
+                    background-color: white;
+                    border: 1px solid #C27A34;
+                    color: #EBBD68;
+                    font-weight: bolder;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 16px;
+                    cursor: pointer;
+                    width: 150px;
+                    display: block;
+                    position: absolute;
+                    top: 174px;
+                     }
+                  #btn-Cat{
+                  background-color: white;
+                  border: 1px solid #C27A34;
+                  color: #EBBD68;
+                  font-weight: bolder;
+                  padding: 15px 32px;
+                  text-align: center;
+                  text-decoration: none;
+                  font-size: 16px;
+                  cursor: pointer;
+                  width: 150px;
+                  display: block;
+                  position: absolute;
+                  top: 226px;
+                  }  
+                 #btn-Gryffindor{
+                 background-color: white;
+                 border: 1px solid #C27A34;
+                 color: #EBBD68;
+                 font-weight: bolder;
+                 padding: 15px 32px;
+                 text-align: center;
+                 text-decoration: none;
+                 font-size: 16px;
+                 cursor: pointer;
+                 width: 150px;
+                 display: block;
+                 position: absolute;
+                 top: 80px;
+                }            
+                #btn-Slytherin{
+                background-color: white;
+                border: 1px solid #C27A34;
+                color: #EBBD68;
+                font-weight: bolder;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                cursor: pointer;
+                width: 150px;
+                display: block;
+                position: absolute;
+                top: 132px;
+               }                   
+                    #btn-Ravenclaw{
+                        background-color: white;
+                        border: 1px solid #C27A34;
+                        color: #EBBD68;
+                        font-weight: bolder;
+                        padding: 15px 32px;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 16px;
+                        cursor: pointer;
+                        width: 150px;
+                        display: block;
+                        position: absolute;
+                        top: 184px;
+                       }
+                            #btn-Hufflepuff{
+                                background-color: white;
+                                border: 1px solid #C27A34;
+                                color: #EBBD68;
+                                font-weight: bolder;
+                                padding: 15px 32px;
+                                text-align: center;
+                                text-decoration: none;
+                                font-size: 16px;
+                                cursor: pointer;
+                                width: 150px;
+                                display: block;
+                                position: absolute;
+                                top: 236px;
+                               }
+                       #btn-Estudiantes{
+                                        background-color: white;
+                                        border: 1px solid #C27A34;
+                                        color: #EBBD68;
+                                        font-weight: bolder;
+                                        padding: 15px 32px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        font-size: 16px;
+                                        cursor: pointer;
+                                        width: 150px;
+                                        display: block;
+                                        position: absolute;
+                                        top: 80px;
+                                       }
+                                            #btn-Staff{
+                                                background-color: white;
+                                                border: 1px solid #C27A34;
+                                                color: #EBBD68;
+                                                font-weight: bolder;
+                                                padding: 15px 32px;
+                                                text-align: center;
+                                                text-decoration: none;
+                                                font-size: 16px;
+                                                cursor: pointer;
+                                                width: 150px;
+                                                display: block;
+                                                position: absolute;
+                                                top: 132px;
+                                               }
+    #ordenar{
+    color: white;
+    font-size:35px;
+    font-weight:bold;
+    font-family: 'acme';
+    position: absolute;
+    top: 250px;
+    }
+    #orden-A-Z{
+        background-color: white;
+            border: 1px solid #C27A34;
+            color: #EBBD68;
+            font-weight: bolder;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        width: 150px;
+        display: block;
+        position: absolute;
+        top: 340px;
+    }
+    #orden-A-Z:hover{
+        background: #C27A34;
+        color: white;
+            } 
+    #orden-Z-A{
+        background-color: white;
+            border: 1px solid #C27A34;
+            color: #EBBD68;
+            font-weight: bolder;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        width: 150px;
+        display: block;
+        float: left;
+        position: absolute;
+        top: 395px;
+        }
+        #orden-Z-A:hover{
+            background: #C27A34;
+            color: white;
+                } 
+  .button {
+    background-color: white;
+    border: 1px solid #C27A34;
+    color: #EBBD68;
+    font-weight: bolder;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+  }
+  .button:hover{
+    background: #C27A34;
+    color: white;
+        } 
+#noticias{
+   width: 100%;
+   height: 25px;
+   position: absolute;
+   bottom: 14px;
+   background-color:orange;
+   font-family: verdana;
+}
+#pie-Pagina{
+width: 100%;
+height: 18px;
+position: absolute;
+bottom: 0px;
+background-color: #FDFCDC;
+font-family: verdana;
+}
+
+#regresar{
+    background-color: white;
+    border: 1px solid #B3711D;
+    color: #B3711D;
+    font-weight: bolder;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 4x0px;
+    display: block;
+    position: absolute; z-index:1;
+    top: 20px;
+    left: 120px;
+  }
+  #regresar:hover{
+    background: #B3711D;
+    color: white;
+        }
+        
+#video{
+width: 560px;
+height: 315px;
+margin-top: 30px;
+margin-left: 500px;
+}
